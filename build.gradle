@@ -11,18 +11,18 @@ repositories {
 
 dependencies {
     /*
-    * Apache Commongs Lang3 Dependency. TODO: Missing.
+    * Apache Commons Lang3 Dependency. TODO: Missing.
     *
     * Provides useful extension for the Java language.
     */
-    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.13.0'
+    //TODO: Missing
 
     /*
-    * JSOUP dependency for HTTP cleaning. TODO: Missing
+    * JSOUP dependency for HTTP cleaning.
     *
     * Provides functionality to load, parse and process websites.
     */
-    implementation group: 'org.jsoup', name: 'jsoup', version: '1.16.2'
+    //TODO: Missing
 
     /* Logging framework. TODO: Is version up-to-date? */
     implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'

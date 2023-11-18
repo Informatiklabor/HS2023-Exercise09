@@ -46,8 +46,13 @@ public class WebsiteWordCounter {
         /* Sort list. */
         topK.sort((o1, o2) -> o2.getRight().compareTo(o1.getRight()));
 
-        /* Remove items from list. */
-        for (int i = k; i < topK.size() ; i++) {
+        /* 
+         * Remove items from list until only the top k are left.
+         *
+         * Not sure if this is right. But I was too lazy to check, because
+         * I might need a debugger here.
+         */
+        for (int i = k; i < topK.size(); i++) {
             topK.remove(i);
         }
         return topK;
